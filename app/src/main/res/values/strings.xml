@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">eFoodCafe</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">name</string>
+    <string name="mobile">mobile</string>
+    <string name="enter_email">enter email</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="signup">Signup</string>
+    <string name="waiter">Waiter</string>
+    <string name="customer">Customer</string>
+
+  // validation check text
+    <string name="nameError">Enter Valid Name</string>
+    <string name="emailError">Enter Valid Email</string>
+    <string name="passwordError">Enter Some Password</string>
+    <string name="numberError">Enter Valid Mobile Number</string>
+    <string name="my_orders">MY Orders</string>
+    <string name="logout">LOGOUT</string>
+    <string name="your_name">Your Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="already_have_an_account">Already Have An Account!</string>
+    <string name="todo">TODO</string>
+    <string name="_10_30">10:30</string>
+    <string name="foodname">FoodName</string>
+    <string name="price">price</string>
+    <string name="doloar">$</string>
+    <string name="_5_50">5.50</string>
+
+
+    Enter Some Password
+    Enter Valid Mobile Number
+
+</resources>

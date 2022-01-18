@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/logInFragment">
+
+    <fragment
+        android:id="@+id/foodListFragment"
+        android:name="com.marufalam.efoodcafe.ui.FoodListFragment"
+        android:label="fragment_food_list"
+        tools:layout="@layout/fragment_food_list" >
+        <action
+            android:id="@+id/action_foodListFragment_to_orderDetatilsFragment"
+            app:destination="@id/orderDetatilsFragment" />
+        <action
+            android:id="@+id/action_foodListFragment_to_logInFragment"
+            app:destination="@id/logInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.marufalam.efoodcafe.ui.LogInFragment"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" >
+        <action
+            android:id="@+id/action_logInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_logInFragment_to_foodListFragment"
+            app:destination="@id/foodListFragment" />
+        <action
+            android:id="@+id/action_logInFragment_to_waiterOrderListFragment"
+            app:destination="@id/waiterOrderListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.marufalam.efoodcafe.ui.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_logInFragment"
+            app:destination="@id/logInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderDetatilsFragment"
+        android:name="com.marufalam.efoodcafe.ui.OrderDetatilsFragment"
+        android:label="fragment_order_detatils"
+        tools:layout="@layout/fragment_order_detatils" >
+        <action
+            android:id="@+id/action_orderDetatilsFragment_to_foodListFragment"
+            app:destination="@id/foodListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderListFragment"
+        android:name="com.marufalam.efoodcafe.ui.OrderListFragment"
+        android:label="fragment_order_list"
+        tools:layout="@layout/fragment_order_list" />
+    <fragment
+        android:id="@+id/waiterOrderListFragment"
+        android:name="com.marufalam.efoodcafe.ui.WaiterOrderListFragment"
+        android:label="fragment_waiter_order_list"
+        tools:layout="@layout/fragment_waiter_order_list" />
+</navigation>

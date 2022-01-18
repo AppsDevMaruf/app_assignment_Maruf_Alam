@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "828411526805",
+    "firebase_url": "https://efoodcafe-68a6c-default-rtdb.firebaseio.com",
+    "project_id": "efoodcafe-68a6c",
+    "storage_bucket": "efoodcafe-68a6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828411526805:android:f481b46efd19c0553aa59c",
+        "android_client_info": {
+          "package_name": "com.marufalam.efoodcafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828411526805-9k5i75odmd308q2u3jmpjfub9e6kd643.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOiUhBNIvxtZ27vVH29sQGP0ShWR2J6pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828411526805-9k5i75odmd308q2u3jmpjfub9e6kd643.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
